@@ -255,7 +255,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 300px;
+    height: 290px;
 }
 
 .about_container{
@@ -532,10 +533,12 @@ img{
     }
 
     .home_img{
-        width: 524px;
+        width: 600px;
+        height: 600px;
         right: 10%;
     }
 
+    
     .about_container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
