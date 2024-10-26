@@ -164,7 +164,7 @@ img{
 .audio-controls {
     display: flex;
     margin-left: 125px;
-    margin-right: -80px;
+    margin-right: -70px;
     margin-bottom: 4px;
 }
 
@@ -220,6 +220,7 @@ img{
 .home{
     position: relative;
     overflow: hidden;
+    margin-top: -30px;
 }
 
 .home_container{
