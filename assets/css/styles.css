@@ -255,8 +255,10 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 37git 0px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 440px;
+    margin-bottom: 80px;
+    border-radius: 100px;
 }
 
 .about_container{
