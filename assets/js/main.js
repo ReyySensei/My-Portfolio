@@ -76,7 +76,7 @@ sr.reveal('.contact_input', {delay: 400})
 sr.reveal('.contact_button', {delay: 600})
 
 const sound = new Howl({
-    src: ['music/withoutyou.mp3'],
+    src: ['music/anywhere.mp3'],
     loop: true
 });
 
