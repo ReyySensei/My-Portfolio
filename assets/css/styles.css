@@ -583,6 +583,7 @@ img{
         justify-items: center;
     }
 
+}
 
 @media screen and (min-width: 1024px){
     .bd-grid{
@@ -597,8 +598,19 @@ img{
     }
 
     .home_img {
+
         width: 500px;
         right: 24%;
     }
    
+}
+
+@media only screen and (max-width: 768px){
+    .home_img{
+        width: 45%;
+        height: 45%;
+        margin-bottom: 2px;
+        border-radius: 20px;
+        margin-right: 50px;
+    }
 }
