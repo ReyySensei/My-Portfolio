@@ -1,4 +1,3 @@
-/* ================= MENU ================= */
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId);
     const nav = document.getElementById(navId);
@@ -18,7 +17,6 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener("click", linkAction));
 
-/* ================= SCROLL ACTIVE ================= */
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
@@ -44,7 +42,6 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 
-/* ================= SCROLL REVEAL ================= */
 const sr = ScrollReveal({
     origin: "top",
     distance: "80px",
@@ -56,11 +53,16 @@ sr.reveal(".home_title", {});
 sr.reveal(".home_scroll", { delay: 200 });
 sr.reveal(".home_img", { origin: "right", delay: 400 });
 
-sr.reveal(".about_img", { delay: 500 });
+sr.reveal(".about_img", { delay: 200 });
 sr.reveal(".about_subtitle", { delay: 300 });
 sr.reveal(".about_profession", { delay: 400 });
 sr.reveal(".about_text", { delay: 500 });
 sr.reveal(".about_social-icon", { delay: 600, interval: 200 });
+
+sr.reveal(".education_content", { delay: 500 });
+sr.reveal(".education_title", { interval: 200 })
+sr.reveal(".education_school", { interval: 300 })
+sr.reveal(".education_year", { interval: 400 })
 
 sr.reveal(".skills_subtitle", {});
 sr.reveal(".skills_name", { distance: "20px", delay: 50, interval: 100 });
@@ -68,12 +70,13 @@ sr.reveal(".skills_img", { delay: 400 });
 
 sr.reveal(".certificates_img", { interval: 200 });
 
+sr.reveal(".projects_card", { interval: 200 })
+
 sr.reveal(".contact_subtitle", {});
 sr.reveal(".contact_text", { interval: 200 });
 sr.reveal(".contact_input", { delay: 400 });
 sr.reveal(".contact_button", { delay: 600 });
 
-/* ================= MUSIC ================= */
 const sound = new Howl({
     src: ["music/anywhere.mp3"],
     loop: true
@@ -96,7 +99,6 @@ window.addEventListener("load", () => {
     sound.play();
 });
 
-/* ================= FIREBASE / FIRESTORE ================= */
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-analytics.js";
 import {
