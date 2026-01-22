@@ -251,9 +251,18 @@ img{
     right: 0;
     bottom: 0;
     max-width: 400px;
-    height: 240px;
-    margin-bottom: 70px;
-    border-radius: 100px;
+    height: 60%;
+    width: 63%;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.home_title {
+    font-size: 90px;
+}
+
+.audio-button {
+    margin-right: 40px;
 }
 
 .about_container{
@@ -687,30 +696,14 @@ img{
 
 }
 
-.home_img {
-    height: 40%;
-    width: 55%;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    margin-right: 50px;
-}
-
-.home_title {
-    font-size: 90px;
-}
-
-.audio-button {
-    margin-right: 40px;
-}
-
 
 @media screen and (min-width: 1024px) {
     .home_img {
-        height: 80%;
+        height: 90%;
         width: 500px;
         margin-right: 0;
         border-radius: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
 
     .home_title {
@@ -720,9 +713,11 @@ img{
     .audio-button {
         margin-right: 0;
     }
-    .nav_menu{
+
+    .nav_menu {
         margin-left: -150px;
     }
+
     .projects_img {
         margin-left: 30px;
     }
