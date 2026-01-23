@@ -419,11 +419,10 @@ img{
 }
 
 .projects_img {
-    width: 260px;
+    width: 350px;
     height: 220px;
     object-fit: cover;
-    margin-left: 26px;
-    margin-top:  20px;
+    margin: 0%;
     border-radius: 10px;
 }
 
@@ -719,6 +718,7 @@ img{
     }
 
     .projects_img {
-        margin-left: 30px;
+        margin: 0%;
+        width: 350px;
     }
 }
