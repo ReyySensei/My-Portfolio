@@ -156,24 +156,6 @@ img{
     }
 }
 
-.audio-controls {
-    display: flex;
-    margin-left: 125px;
-    margin-right: -70px;
-    margin-bottom: 4px;
-}
-
-.audio-button {
-    background-color: white;
-    cursor: pointer;
-    font-size: 10px;
-    margin: 0px;
-    border-radius: 150px;
-}
-
-.audio-button:hover {
-    transform: scale(1.1);
-}
 
 .nav_item{
     margin-bottom: var(--mb-4);
@@ -606,23 +588,6 @@ img{
         background-color: var(--white-color);
     }
 
-    .audio-controls {
-        display: flex;
-        margin-left: -400px;
-        margin-right: -100px;
-    }
-    
-    .audio-button {
-        background-color: white;
-        cursor: pointer;
-        font-size: 16px;
-        margin: 0px;
-        border-radius: 100px;
-    }
-    
-    .audio-button:hover {
-         transform: scale(1.1);
-    }
 
     .home {
         position: relative;
@@ -714,7 +679,7 @@ img{
     }
 
     .nav_menu {
-        margin-left: -150px;
+        margin-left: 350px;
     }
 
     .projects_img {

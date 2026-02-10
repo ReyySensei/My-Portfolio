@@ -40,6 +40,7 @@ function scrollActive() {
         }
     });
 }
+
 window.addEventListener("scroll", scrollActive);
 
 const sr = ScrollReveal({
@@ -76,28 +77,6 @@ sr.reveal(".contact_subtitle", {});
 sr.reveal(".contact_text", { interval: 200 });
 sr.reveal(".contact_input", { delay: 400 });
 sr.reveal(".contact_button", { delay: 600 });
-
-const sound = new Howl({
-    src: ["music/music.mp3"],
-    loop: true
-});
-
-const toggleBtn = document.getElementById("toggle-button");
-if (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
-        if (sound.playing()) {
-            sound.pause();
-            this.innerHTML = "<i class='bx bx-play'></i>";
-        } else {
-            sound.play();
-            this.innerHTML = "<i class='bx bx-pause'></i>";
-        }
-    });
-}
-
-window.addEventListener("load", () => {
-    sound.play();
-});
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.8.0/firebase-analytics.js";
