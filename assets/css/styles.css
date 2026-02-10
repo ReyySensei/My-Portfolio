@@ -132,7 +132,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: black;
+    background-color:  black;
 }
 
 .nav{
@@ -161,14 +161,15 @@ img{
     margin-bottom: var(--mb-4);
 }
 
-.nav_link{
-    position: relative;
-    color: black;
+.nav_item:hover{
+    color: #3498db;
 }
 
-.nav_link:hover{
-    color:  black;
+.nav_link{
+    position: relative;
+    color: white;
 }
+
 
 .nav_logo{
     color: white;
@@ -191,7 +192,7 @@ img{
     height: .18rem;
     left: 0;
     top: 2rem;
-    background-color: black;
+    background-color:black;
 }
 
 .home{
@@ -241,10 +242,6 @@ img{
 
 .home_title {
     font-size: 90px;
-}
-
-.audio-button {
-    margin-right: 40px;
 }
 
 .about_container{
